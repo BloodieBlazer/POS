@@ -1,0 +1,40 @@
+.dark .card {
+  --tw-text-opacity: 1;
+  color: rgb(248 250 252 / var(--tw-text-opacity));
+}
+
+.dark .font-medium {
+  color: theme('fontMedium.dark');
+}
+
+.dark .text-slate-600 {
+  color: theme('textColor.slate.600-dark');
+}
+
+.dark .text-slate-500 {
+  color: theme('textColor.500.dark');
+}
+
+.dark input {
+  color: theme('input.dark.text');
+  background-color: theme('input.dark.bg');
+}
+
+.dark .border-primary-500.bg-primary-50 {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.dark .border-primary-500.bg-primary-50 .text-slate-600 {
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.dark .bg-slate-50[data-component-name="PaymentPage"] {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.dark .bg-slate-50[data-component-name="PaymentPage"] .font-medium {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
