@@ -92,7 +92,7 @@ function InventoryPage() {
 
   const getMovementIcon = (type: string) => {
     switch (type) {
-      case 'sale': return <TrendingDown className="text-red-500" size={16} />;
+      case 'sale': return <TrendingDown className="text-red-500\" size={16} />;
       case 'restock': return <TrendingUp className="text-green-500" size={16} />;
       case 'adjustment': return <RotateCcw className="text-blue-500" size={16} />;
       case 'return': return <TrendingUp className="text-yellow-500" size={16} />;
